@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d3efb138-ac25-4056-ae63-f41a8e5c8c4e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/Airport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Airport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Planes/PassengerPlane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Planes/PassengerPlane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AirportTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AirportTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,13 +17,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AirportTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AirportTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/AirportTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1340">
+            <state relative-caret-position="1460">
               <caret line="91" column="39" lean-forward="true" selection-start-line="91" selection-start-column="39" selection-end-line="91" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Airport.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Airport.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="21" column="80" lean-forward="true" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
+              <folding>
+                <element signature="e#2928#2929#0" expanded="true" />
+                <element signature="e#3020#3021#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,8 +70,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Planes/Plane.java" />
         <option value="$PROJECT_DIR$/src/main/java/Planes/PassengerPlane.java" />
         <option value="$PROJECT_DIR$/src/main/java/Planes/experimentalPlane.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Airport.java" />
         <option value="$PROJECT_DIR$/src/test/java/AirportTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Airport.java" />
       </list>
     </option>
   </component>
@@ -304,11 +315,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32905984" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21082622" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21082622" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49819493" visible="true" weight="0.17114094" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49819493" visible="true" weight="0.17114094" />
       <window_info anchor="bottom" id="Inspection Results" order="7" weight="0.32905984" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" sideWeight="0.50180507" side_tool="true" visible="true" weight="0.17114094" />
@@ -540,17 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Airport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-394">
-          <caret line="83" column="49" selection-start-line="83" selection-start-column="47" selection-end-line="83" selection-end-column="49" />
-          <folding>
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Planes/Plane.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -598,10 +598,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AirportTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1340">
+        <state relative-caret-position="1460">
           <caret line="91" column="39" lean-forward="true" selection-start-line="91" selection-start-column="39" selection-end-line="91" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Airport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="21" column="80" lean-forward="true" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
+          <folding>
+            <element signature="e#2928#2929#0" expanded="true" />
+            <element signature="e#3020#3021#0" expanded="true" />
           </folding>
         </state>
       </provider>

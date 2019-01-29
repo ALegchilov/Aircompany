@@ -14,6 +14,7 @@ public class Airport {
     public Airport(List<? extends Plane> planes) {
         this.planes = planes;
     }
+
     private List<? extends Plane> planes;
     public List<PassengerPlane> getPasPl() {
         List<? extends Plane> l = this.planes;
