@@ -34,17 +34,17 @@ public class AirportTest {
     private static PassengerPlane planeWithMaxPassengerCapacity = new PassengerPlane("Boeing-747", 980, 16100, 70500, 242);
 
     @Test
+    //не должно быть циклов и ветвлений
     public void testGetTransportMilitaryPlanes() {
+        System.out.println("TEST testGetTransportMilitaryPlanes started!");
         Airport airport = new Airport(planes);
         List<MilitaryPlane> transportMilitaryPlanes = airport.getTransportMilitaryPlanes();
-        boolean flag = false;
         for (MilitaryPlane militaryPlane : transportMilitaryPlanes) {
             if ((militaryPlane.getType() == MilitaryType.TRANSPORT)) {
-                flag = true;
+                Assert.fail("Test failed!");
                 break;
             }
         }
-        Assert.assertEquals(flag, true);
     }
 
     @Test
@@ -56,7 +56,9 @@ public class AirportTest {
     }
 
     @Test
-    public void test3() {
+    //не должно быть циклов и ветвлений
+    public void testSortByMaxLoadCapacityFromHighToLow() {
+        System.out.println("TEST testSortByMaxLoadCapacityFromHighToLow started!");
         Airport airport = new Airport(planes);
         airport.sortByMaxLoadCapacity();
         List<? extends Plane> planesSortedByMaxLoadCapacity = airport.getPlanes();
@@ -74,22 +76,20 @@ public class AirportTest {
     }
 
     @Test
+    //не должно быть циклов и ветвлений
     public void testHasAtLeastOneBomberInMilitaryPlanes() {
+        System.out.println("TEST testHasAtLeastOneBomberInMilitaryPlanes started!");
         Airport airport = new Airport(planes);
         List<MilitaryPlane> bomberMilitaryPlanes = airport.getBomberMilitaryPlanes();
-        boolean flag = false;
         for (MilitaryPlane militaryPlane : bomberMilitaryPlanes) {
             if ((militaryPlane.getType() == MilitaryType.BOMBER)) {
-                flag = true;
-            }
-            else {
                 Assert.fail("Test failed!");
             }
         }
-        // if not failed
     }
 
     @Test
+    //не должно быть циклов и ветвлений
     public void testExperimentalPlanesHasClassificationLevelHigherThanUnclassified(){
         Airport airport = new Airport(planes);
         List<experimentalPlane> experimentalPlanes = airport.getExperimentalPlanes();
