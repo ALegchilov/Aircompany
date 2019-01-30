@@ -99,13 +99,12 @@ public class Airport {
         return this;
     }
 
-    public Airport sortByMaxLoadCapacity() {
+    public void sortByMaxLoadCapacity() {
         Collections.sort(planes, new Comparator<Plane>() {
             public int compare(Plane o1, Plane o2) {
                 return o1.getMinLoadCapacity() - o2.getMinLoadCapacity();
             }
         });
-        return this;
     }
 
     public List<? extends Plane> getPlanes() {
